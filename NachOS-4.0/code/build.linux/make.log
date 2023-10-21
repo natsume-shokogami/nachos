@@ -1,0 +1,3 @@
+g++ -g -Wall -I../network -I../filesys -I../userprog -I../threads -I../machine -I../lib -I- -DFILESYS_STUB -DRDATA -DSIM_FIX -Dx86 -DLINUX -DCHANGED -m32 -c ../threads/kernel.cc
+Makefile:340: recipe for target 'kernel.o' failed
+g++ -g -Wall -I../network -I../filesys -I../userprog -I../threads -I../machine -I../lib -I- -DFILESYS_STUB -DRDATA -DSIM_FIX -Dx86 -DLINUX -DCHANGED -m32 -c ../threads/kernel.cc Makefile:340: recipe for target 'kernel.o' failed
